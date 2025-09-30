@@ -13,6 +13,11 @@ namespace Lab2
 
             // code here
 
+            for (int i = 0; i < n; i++)
+            {
+                answer += (p + h * i) * (p + h * i);
+            }
+
             // end
 
             return answer;
@@ -24,6 +29,13 @@ namespace Lab2
 
             // code here
 
+            while (a >= b)
+            {
+                a -= b;
+                quotient++;
+            }
+            remainder = a;
+
             // end
 
             return (quotient, remainder);
@@ -34,15 +46,31 @@ namespace Lab2
 
             // code here
 
+            const double e = 1e-4;
+            double a1 = 1, a2 = 2, b1 = 1, b2 = 1;
+            while (Math.Abs(a2 / b2 - a1 / b1) >= e)
+            {
+                (a1, a2) = (a2, a1 + a2);
+                (b1, b2) = (b2, b1 + b2);
+            }
+            answer = a2 / b2;
+
             // end
 
             return answer;
         }
         public int Task4(double b, double q)
         {
-            int answer = 0;
+            int answer = 1;
 
             // code here
+
+            const double e = 1e-4;
+            while (Math.Abs(b) >= e)
+            {
+                b *= q;
+                answer++;
+            }
 
             // end
 
