@@ -2559,11 +2559,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2test\\Lab2test.csproj",
+      "projectUniqueName": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2test\\Lab2test.csproj",
       "projectName": "Lab2test",
-      "projectPath": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2test\\Lab2test.csproj",
+      "projectPath": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2test\\Lab2test.csproj",
       "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2test\\obj\\",
+      "outputPath": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2584,8 +2584,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj": {
-              "projectPath": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj"
+            "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj": {
+              "projectPath": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj"
             }
           }
         }
@@ -2600,7 +2600,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2635,7 +2635,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

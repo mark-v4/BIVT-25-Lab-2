@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj",
       "projectName": "Lab2",
-      "projectPath": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj",
+      "projectPath": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2\\Lab2.csproj",
       "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marko\\Source\\Repos\\BIVT-25-Lab-2\\Lab2\\obj\\",
+      "outputPath": "C:\\Users\\marko\\source\\repos\\BIVT-25-Lab-2\\Lab2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -82,6 +82,18 @@ namespace Lab2
 
             // code here
 
+            long number = a;
+            while (b > 0)
+            {
+                number *= b;
+                b--;
+            }
+            while (number >= 10)
+            {
+                number /= 10;
+                answer++;
+            }
+
             // end
 
             return answer;
@@ -90,7 +102,15 @@ namespace Lab2
         {
             long answer = 0;
 
-            // code here
+            // code 
+
+            double g = 1, s = 0;
+            for (int i = 0; i < 8 * 8; i++)
+            {
+                s += g / 15000000;
+                g *= 2;
+            }
+            answer = (long)s;
 
             // end
 
@@ -103,6 +123,19 @@ namespace Lab2
 
             // code here
 
+            double sum = S, p = 0;
+            int m = 0;
+            while (sum < S * 2)
+            {
+                m++;
+                if ((m - 1) % 12 == 0)
+                {
+                    p = sum * d / 1200;
+                }
+                sum += p;
+            }
+            answer = m;
+
             // end
 
             return answer;
@@ -113,6 +146,23 @@ namespace Lab2
             double SY = 0;
 
             // code here
+
+            const double e = 1e-4;
+            for (double x = a; x <= b + 0.0001; x += h)
+            {
+                double s = 0, v = 1, p1 = 1, p2 = 1, p3 = 1, j = 1;
+                while (Math.Abs(v) >= e)
+                {
+                    v = p1 * p2 / p3;
+                    s += v;
+                    p1 *= -1;
+                    p2 *= x * x;
+                    p3 *= j * (j + 1);
+                    j += 2;
+                }
+                SS += s;
+                SY += Math.Cos(x);
+            }
 
             // end
 
